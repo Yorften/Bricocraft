@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");*
+
 body {
   font-family: 'Lato', sans-serif;
   color: #040000;
@@ -115,11 +116,7 @@ a:focus {
 
 .navbar-brand {
   padding: 0;
-  margin: 0;
-  color: #000000;
-  font-weight: bold;
-  font-size: 24px;
-  font-weight: bold;
+  margin: 1% 0 0 3% ;
 }
 
 .navbar-brand span {
@@ -713,6 +710,7 @@ a:focus {
 }
 
 .info_section {
+  margin-top: 1%;
   padding: 75px 0;
   background-color: #0a0f43;
   text-align: center;
