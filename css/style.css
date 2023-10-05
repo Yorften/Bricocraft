@@ -53,6 +53,7 @@ body {
           align-items: center;
   text-transform: uppercase;
   font-family: 'Merriweather Sans', sans-serif;
+  color: #0355cc;
 }
 
 .heading_container p {
@@ -65,7 +66,15 @@ body {
           align-items: center;
   text-align: center;
 }
+.Location {
+  background-color: #d1e3ff;
 
+}
+.Location h2{
+  color: #0355cc;
+  margin-left: 5%;
+  font-size: 40px;
+}
 h1,
 h2 {
   font-family: 'Merriweather Sans', sans-serif;
@@ -103,7 +112,7 @@ a:focus {
 }
 
 .header_section .header_top .contact_nav a {
-  color: #ffffff;
+  color: #b90000;
 }
 
 .header_section .header_top .contact_nav a i {
@@ -113,13 +122,15 @@ a:focus {
 .header_section .header_bottom {
   padding: 10px 0;
 }
-
+.header_bottom{
+  margin-bottom: 1%;
+}
 .navbar-brand {
   padding: 0;
-  margin: 1% 0 0 3% ;
+  margin: 1% 0 0% 3% ;
 }
 
-.navbar-brand span {
+.navbar-brand span {      
   color: #0355cc;
   text-transform: uppercase;
 }
@@ -179,7 +190,6 @@ a:focus {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-
 .custom_nav-container .navbar-toggler span::before, .custom_nav-container .navbar-toggler span::after {
   content: "";
   position: absolute;
@@ -403,7 +413,15 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-
+.about3{
+  margin-top: 8%;
+}
+.about2 img{
+  border-radius: 25px;
+}
+.about4{
+  margin-top: 10%;
+}
 .about_section .detail-box h2 {
   text-transform: uppercase;
   font-weight: bold;
@@ -432,10 +450,14 @@ a:focus {
 
 .about_section .img-box img {
   width: 100%;
+  border-radius: 25px;
 }
 
 .professional_section {
   background-color: #d1e3ff;
+}
+.about2{
+  background-color: #fff;
 }
 
 .professional_section .row {
@@ -449,6 +471,12 @@ a:focus {
 }
 
 .professional_section .detail-box h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0355cc;
+}
+.about1 .detail-box h2{
+  margin-top: 10%;
   text-transform: uppercase;
   font-weight: bold;
   color: #0355cc;
@@ -542,7 +570,7 @@ a:focus {
           filter: brightness(0) invert(1);
 }
 
-.service_section .btn-box {
+.client_section .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -552,7 +580,7 @@ a:focus {
   margin-top: 45px;
 }
 
-.service_section .btn-box a {
+.client_section .btn-box a {
   display: inline-block;
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
@@ -563,7 +591,7 @@ a:focus {
   color: #ffffff;
 }
 
-.service_section .btn-box a:hover {
+.client_section .btn-box a:hover {
   background-color: transparent;
   color: #0355cc;
 }
@@ -573,7 +601,9 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  margin-top: 2%;
 }
+
 
 .client_section .box {
   margin: 15px;
@@ -662,6 +692,20 @@ a:focus {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
+.contact_section .name {
+  float: left;
+  width: 49%;
+  border: none;
+  height: 50px;
+
+  margin-bottom: 25px;
+  padding-left: 25px;
+  background-color: #ffffff;
+  outline: none;
+  color: #000000;
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
 
 .contact_section input::-webkit-input-placeholder {
   color: #737272;
@@ -701,14 +745,27 @@ a:focus {
   color: #0355cc;
 }
 
-.contact_section .map_container {
-  height: 360px;
+.map_section .map_container {
+  height: 75%;
+  width: 66%;
+text-align: center;
+  
 }
-
-.contact_section .map_container .map {
+.map_section {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+.map_section .map_container .map {
+  margin: auto;
   height: 100%;
+  text-align: center;
+  border-radius: 25px;
 }
-
+.map_section{
+  background-color: #d1e3ff;
+}
 .info_section {
   margin-top: 1%;
   padding: 75px 0;
@@ -751,9 +808,6 @@ a:focus {
   font-size: 18px;
 }
 
-.info_section a:hover {
-  color: #ff8a1d;
-}
 
 .info_items a {
   position: relative;
@@ -805,18 +859,17 @@ a:focus {
   position: relative;
 }
 
-.info_items::before {
-  content: "";
-  position: absolute;
-  top: 65px;
-  width: 75%;
-  height: 1px;
-  background-color: #fff;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+p{
+  text-align: left;
+}
+a.info{
+  color: #ffffff;
+  text-align: left;
 }
 
+.map:hover{
+  text-decoration: underline;
+}
 /* footer section*/
 .footer_section {
   background-color: #0a0f43;
@@ -833,6 +886,8 @@ a:focus {
 .footer_section a {
   color: inherit;
 }
-
+ .box{
+  background-color: #ffffff;
+ }
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
