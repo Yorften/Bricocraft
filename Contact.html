@@ -30,7 +30,7 @@
           <nav class="navbar navbar-expand-lg custom_nav-container ">
             <a class="navbar-brand" href="index">
               <span class="img">
-                <img src="BRICOCRAFT_LOGO/logo_transparent.png" alt="BRICOCRAFT" height="50" width="120">
+                <img src="BRICOCRAFT_LOGO/logo_transparent.png" alt="BRICOCRAFT" height="50" width="190">
               </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,19 +67,19 @@
                   Contact Us
                 </h2>
               </div>
-              <form action="">
+              <form method="post">
                 <div>
                   <input class="name" type="text" style="margin-right: 2%;" placeholder="First Name" />
                   <input class="name" type="text" placeholder="Last Name" />
                 </div>
                 <div>
-                  <input type="text" placeholder="Phone Number" />
+                  <input type="text" placeholder="Phone Number" required pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"/>
                 </div>
                 <div>
-                  <input type="email" placeholder="Email" />
+                  <input type="email" placeholder="Email" required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" />
                 </div>
                 <div>
-                  <input type="text" class="message-box" placeholder="Message" />
+                  <textarea placeholder="Message" class="message-box" rows="8" cols="100"></textarea>
                 </div>
                 <div class="d-flex ">
                   <button>
