@@ -772,10 +772,13 @@ a:focus {
   background-color: transparent;
   color: #0355cc;
 }
-
+.contact_section img{
+  width: 100%;
+}
 .map_section .map_container {
-  height: 50%;
-  width: 66%;
+  height: 70%;
+  width: 90%;
+  padding: 10px;
 text-align: center;
   
 }
