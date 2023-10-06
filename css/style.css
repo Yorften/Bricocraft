@@ -352,6 +352,11 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
+  transition: 1s ease;
+}
+
+.slider_section .img-box img:hover {
+  transform: scale(1.1);
 }
 
 .feature_section {
@@ -488,6 +493,11 @@ a:focus {
 
 .professional_section .img-box img {
   width: 100%;
+  transition: 1s ease;
+}
+
+.professional_section .img-box img:hover {
+  transform: scale(1.1);
 }
 
 .professional_section .detail-box h2 {
@@ -772,9 +782,17 @@ a:focus {
   background-color: transparent;
   color: #0355cc;
 }
+
 .contact_section img{
   width: 100%;
+  transition: 1s ease;
 }
+
+.contact_section img:hover{
+  transform: scale(1.1);
+
+}
+
 .map_section .map_container {
   height: 70%;
   width: 90%;
